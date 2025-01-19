@@ -4,6 +4,11 @@ body {
   color: #434455;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* reset */
 
 a {
@@ -132,7 +137,7 @@ p {
 
 .first-block {
   background: #2e2f42;
-  padding: 188px;
+  padding: 188px 0 188px;
 }
 
 .h-one {
@@ -142,7 +147,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   margin-left: auto;
   margin-right: auto;
@@ -212,7 +217,7 @@ p {
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  width: ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .princ-h {
@@ -222,6 +227,7 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .princ-item-text {
@@ -280,6 +286,7 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .item-card-text {
@@ -289,6 +296,10 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.item-portfolio-text {
+  text-align: center;
 }
 
 /* four section */
