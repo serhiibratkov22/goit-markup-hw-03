@@ -92,7 +92,7 @@ p {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -115,7 +115,7 @@ p {
   font-size: 16px;
   font-style: normal;
   text-decoration: none;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -143,7 +143,7 @@ p {
 .h-one {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -206,17 +206,10 @@ p {
 
 .princ-list {
   display: flex;
-  max-width: 1128px;
-  margin: 120px 0;
   gap: 24px;
 }
 
 .princ-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -227,7 +220,6 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .princ-item-text {
@@ -251,7 +243,7 @@ p {
 .h-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -260,17 +252,12 @@ p {
 }
 
 .team-names {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 32px 0;
 }
 
 .team-list {
   display: flex;
-  align-items: center;
   gap: 24px;
-  box-sizing: border-box;
 }
 
 .item-card {
@@ -282,7 +269,7 @@ p {
 .h-three-team {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
@@ -292,14 +279,14 @@ p {
 .item-card-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
 
 .item-portfolio-text {
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* four section */
@@ -329,7 +316,7 @@ p {
 .h-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -337,10 +324,10 @@ p {
   margin-bottom: 72px;
 }
 
-.h-three-team {
+.three-team {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
@@ -349,7 +336,7 @@ p {
 .item-portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -358,7 +345,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -383,10 +370,6 @@ p {
 
 .footer-logo {
   display: inline-block;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
   margin-bottom: 16px;
 }
 
